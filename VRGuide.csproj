@@ -62,17 +62,17 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\MouseOperations.cs">
       <Link>Plugins\VR Guide\MouseOperations.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\VRMonkey.cs">
-      <Link>Plugins\VR Guide\VRMonkey.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\VRGreed.cs">
-      <Link>Plugins\VR Guide\VRGreed.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\Autowalk.cs">
+      <Link>Plugins\VR Guide\Autowalk.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\VRTest.cs">
       <Link>Plugins\VR Guide\VRTest.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\Autowalk.cs">
-      <Link>Plugins\VR Guide\Autowalk.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\VRGreed.cs">
+      <Link>Plugins\VR Guide\VRGreed.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\VR Guide\VRMonkey.cs">
+      <Link>Plugins\VR Guide\VRMonkey.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -348,6 +348,12 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -371,12 +377,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\--Unity New\2021.3.13f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

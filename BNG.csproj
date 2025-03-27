@@ -56,197 +56,44 @@
     <Analyzer Include="E:\--VS_E\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\BNGPlayerController.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\BNGPlayerController.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableChild.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableChild.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableBezierLine.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableBezierLine.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPose.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPose.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\BulletInsert.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\BulletInsert.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Marker.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Marker.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\JointBreaker.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\JointBreaker.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\IgnoreColliders.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\IgnoreColliders.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\ButtonEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\ButtonEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\JoystickControl.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\JoystickControl.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\LiquidWobble.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\LiquidWobble.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\RingHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\RingHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandController.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\HandController.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\RotateTowards.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\RotateTowards.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\FollowTransform.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\FollowTransform.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs">
-      <Link>Plugins\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\VREmulator.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\VREmulator.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\LocomotionManager.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\LocomotionManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Arrow.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Arrow.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterYOffset.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\CharacterYOffset.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\TrackedDevice.cs">
       <Link>Plugins\BNG Framework\Scripts\Core\TrackedDevice.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\HandJet.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\HandJet.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHaptics.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHaptics.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZoneScale.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\SnapZoneScale.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Flashlight.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Flashlight.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\ControllerModelSelector.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\ControllerModelSelector.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\RemoteGrabber.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\RemoteGrabber.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CollisionSound.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\CollisionSound.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\UIPointer.cs">
-      <Link>Plugins\BNG Framework\Scripts\UI\UIPointer.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\DetachableLimb.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\DetachableLimb.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\PluginsEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\PluginsEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerRotation.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PlayerRotation.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabPoint.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\GrabPoint.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\InputBridgeEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\InputBridgeEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Explosive.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Explosive.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\EditorHandle.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\EditorHandle.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\VRUISystem.cs">
-      <Link>Plugins\BNG Framework\Scripts\UI\VRUISystem.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerGravity.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PlayerGravity.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\GrabberArea.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\GrabberArea.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\AutoPoser.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\AutoPoser.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Slider.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\Slider.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZoneOffset.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\SnapZoneOffset.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerClimbing.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PlayerClimbing.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabPointTrigger.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabPointTrigger.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ScreenFader.cs">
       <Link>Plugins\BNG Framework\Scripts\Components\ScreenFader.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ArrowGrabArea.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\ArrowGrabArea.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\IntegrationsEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\IntegrationsEditor.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\PunctureCollider.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\PunctureCollider.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\RagdollHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\RagdollHelper.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Grabber.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\Grabber.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SteeringWheel.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\SteeringWheel.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\GrabPointEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\GrabPointEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\HingeHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\HingeHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\GrappleShot.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\GrappleShot.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\VelocityTracker.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\VelocityTracker.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\LiquidWobble.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\LiquidWobble.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\LocomotionManager.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\LocomotionManager.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scenes\XR Demo\DemoCube.cs">
       <Link>Plugins\BNG Framework\Scenes\XR Demo\DemoCube.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\ClimbableEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\ClimbableEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PointerEvents.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PointerEvents.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\MovingPlatform.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\MovingPlatform.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\MagazineSlide.cs">
       <Link>Plugins\BNG Framework\Scripts\Weapons\MagazineSlide.cs</Link>
@@ -254,188 +101,86 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\DoorHelper.cs">
       <Link>Plugins\BNG Framework\Scripts\Helpers\DoorHelper.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ArrowGrabArea.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\ArrowGrabArea.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\VRCanvas.cs">
+      <Link>Plugins\BNG Framework\Scripts\UI\VRCanvas.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\StaticBatch.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\StaticBatch.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\GrabbableEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\GrabbableEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\PunctureCollider.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\PunctureCollider.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\Climbable.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\Climbable.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\ButtonEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\ButtonEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\RingHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\RingHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\HandModelSelector.cs">
       <Link>Plugins\BNG Framework\Scripts\Core\HandModelSelector.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\WeaponSlide.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\WeaponSlide.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\DrawerSound.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\DrawerSound.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\TrackedDeviceEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\TrackedDeviceEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\BowArm.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\BowArm.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\VehicleController.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\VehicleController.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Zipline.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Zipline.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\JointHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\JointHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\TeleportDestination.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\TeleportDestination.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandleHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\HandleHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableRingHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableRingHelper.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\VRUtils.cs">
-      <Link>Plugins\BNG Framework\Scripts\Utility\VRUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\AmmoDispenser.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\AmmoDispenser.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Lever.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\Lever.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\FixNonUniformScale.cs">
-      <Link>Plugins\BNG Framework\Scripts\Utility\FixNonUniformScale.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\BoneMapping.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\BoneMapping.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SteeringWheel.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\SteeringWheel.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHighlight.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHighlight.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\IKDummy.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\IKDummy.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\Projectile.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\Projectile.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\DamageCollider.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\DamageCollider.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\VRCanvas.cs">
-      <Link>Plugins\BNG Framework\Scripts\UI\VRCanvas.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\Bullet.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\Bullet.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabAction.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\GrabAction.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Bow.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\Bow.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\GrabPointEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\GrabPointEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\LineToTransform.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\LineToTransform.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs">
-      <Link>Plugins\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ExtensionMethods.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\ExtensionMethods.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Waypoint.cs">
       <Link>Plugins\BNG Framework\Scripts\Extras\Waypoint.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZone.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\SnapZone.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\FPSText.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\FPSText.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\RotateWithHMD.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\RotateWithHMD.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\RaycastWeapon.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\RaycastWeapon.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\LaserSword.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\LaserSword.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\Tooltip.cs">
       <Link>Plugins\BNG Framework\Scripts\Components\Tooltip.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\AmmoDisplay.cs">
-      <Link>Plugins\BNG Framework\Scripts\Weapons\AmmoDisplay.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableEvents.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableEvents.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\LookAtTransform.cs">
       <Link>Plugins\BNG Framework\Scripts\Components\LookAtTransform.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\HingeHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\HingeHelper.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoseEditor.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoseEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterIK.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\CharacterIK.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ProjectileLauncher.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\ProjectileLauncher.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\VREmulator.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\VREmulator.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPoser.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPoser.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Arrow.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Arrow.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\GrappleShot.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\GrappleShot.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\TimeController.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\TimeController.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\DetachableLimb.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\DetachableLimb.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\MovingPlatform.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\MovingPlatform.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\TrackedDeviceEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\TrackedDeviceEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ExtensionMethods.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\ExtensionMethods.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\VRIFGrabpointUpdaterEditor.cs">
       <Link>Plugins\BNG Framework\Editor\VRIFGrabpointUpdaterEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Animation\HandPoseDefinitions.cs">
-      <Link>Plugins\BNG Framework\Animation\HandPoseDefinitions.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterConstraint.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\CharacterConstraint.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Grabbable.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\Grabbable.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\PlayerScaler.cs">
       <Link>Plugins\BNG Framework\Scripts\Extras\PlayerScaler.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\InputBridge.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\InputBridge.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\BulletInsert.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\BulletInsert.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Explosive.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Explosive.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\StaticBatch.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\StaticBatch.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\VRUtils.cs">
+      <Link>Plugins\BNG Framework\Scripts\Utility\VRUtils.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandCollision.cs">
       <Link>Plugins\BNG Framework\Scripts\Helpers\HandCollision.cs</Link>
@@ -443,65 +188,107 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs">
       <Link>Plugins\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\BulletHole.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\BulletHole.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\GrabPointTriggerEditor.cs">
       <Link>Plugins\BNG Framework\Editor\GrabPointTriggerEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoseEditor.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoseEditor.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\HeadCollisionFade.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\HeadCollisionFade.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\RemoteGrabber.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\RemoteGrabber.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ReturnToSnapZone.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\ReturnToSnapZone.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CollisionSound.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\CollisionSound.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Grabber.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\Grabber.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Zipline.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Zipline.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs">
+      <Link>Plugins\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZone.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\SnapZone.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableEvents.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableEvents.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterConstraint.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\CharacterConstraint.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\InputBridgeEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\InputBridgeEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\EditorHandle.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\EditorHandle.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandleHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\HandleHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHighlight.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHighlight.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\DamageCollider.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\DamageCollider.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPose.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPose.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZoneOffset.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\SnapZoneOffset.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\TeleportDestination.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\TeleportDestination.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\Projectile.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\Projectile.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\RotateWithHMD.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\RotateWithHMD.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\BulletHole.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\BulletHole.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scenes\XR Demo\DemoScript.cs">
       <Link>Plugins\BNG Framework\Scenes\XR Demo\DemoScript.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\FingerJoint.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Scripts\FingerJoint.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableChild.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableChild.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\FollowRigidbody.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\FollowRigidbody.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SnapZoneScale.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\SnapZoneScale.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SmoothLocomotion.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\SmoothLocomotion.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\ClimbableEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\ClimbableEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoserEditor.cs">
-      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoserEditor.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\JointHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\JointHelper.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Button.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\Button.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\FPSText.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\FPSText.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\LaserPointer.cs">
       <Link>Plugins\BNG Framework\Scripts\Extras\LaserPointer.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\GrabbableEditor.cs">
-      <Link>Plugins\BNG Framework\Editor\GrabbableEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerTeleport.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\PlayerTeleport.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\AutoPoserEditor.cs">
       <Link>Plugins\BNG Framework\HandPoser\Editor\AutoPoserEditor.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\VelocityTracker.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\VelocityTracker.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\Climbable.cs">
-      <Link>Plugins\BNG Framework\Scripts\Components\Climbable.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\MoveToWaypoint.cs">
-      <Link>Plugins\BNG Framework\Scripts\Extras\MoveToWaypoint.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandPhysics.cs">
-      <Link>Plugins\BNG Framework\Scripts\Helpers\HandPhysics.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\Damageable.cs">
       <Link>Plugins\BNG Framework\Scripts\Components\Damageable.cs</Link>
@@ -509,11 +296,224 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\UITrigger.cs">
       <Link>Plugins\BNG Framework\Scripts\Helpers\UITrigger.cs</Link>
     </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabPoint.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\GrabPoint.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerGravity.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PlayerGravity.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\WeaponSlide.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\WeaponSlide.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\VehicleController.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\VehicleController.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\BoneMapping.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\BoneMapping.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\InputBridge.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\InputBridge.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ReturnToSnapZone.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\ReturnToSnapZone.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Editor\HandPoserEditor.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Editor\HandPoserEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandPhysics.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\HandPhysics.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Marker.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Marker.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableHaptics.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableHaptics.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\VRUISystem.cs">
+      <Link>Plugins\BNG Framework\Scripts\UI\VRUISystem.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\RagdollHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\RagdollHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Lever.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\Lever.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\IKDummy.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\IKDummy.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabAction.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabAction.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\LaserSword.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\LaserSword.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterIK.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\CharacterIK.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\ProjectileLauncher.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\ProjectileLauncher.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerTeleport.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PlayerTeleport.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\IgnoreColliders.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\IgnoreColliders.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\FollowTransform.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\FollowTransform.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\ControllerModelSelector.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\ControllerModelSelector.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabPointTrigger.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabPointTrigger.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\BowArm.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\BowArm.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\FixNonUniformScale.cs">
+      <Link>Plugins\BNG Framework\Scripts\Utility\FixNonUniformScale.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\SmoothLocomotion.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\SmoothLocomotion.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Button.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\Button.cs</Link>
+    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\LeverEditor.cs">
       <Link>Plugins\BNG Framework\Editor\LeverEditor.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\HeadCollisionFade.cs">
-      <Link>Plugins\BNG Framework\Scripts\Core\HeadCollisionFade.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\JoystickControl.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\JoystickControl.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Flashlight.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Flashlight.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\PluginsEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\PluginsEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\DrawerSound.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\DrawerSound.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableBezierLine.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableBezierLine.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandController.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\HandController.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\RotateTowards.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\RotateTowards.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs">
+      <Link>Plugins\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\CharacterYOffset.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\CharacterYOffset.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\GrabberArea.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\GrabberArea.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\Bow.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\Bow.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\TimeController.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\TimeController.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Grabbable.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\Grabbable.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\FingerJoint.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\FingerJoint.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\BNGPlayerController.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\BNGPlayerController.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\HandJet.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\HandJet.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\AutoPoser.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\AutoPoser.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Editor\IntegrationsEditor.cs">
+      <Link>Plugins\BNG Framework\Editor\IntegrationsEditor.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\AmmoDispenser.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\AmmoDispenser.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\Bullet.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\Bullet.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\LineToTransform.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\LineToTransform.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\RaycastWeapon.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\RaycastWeapon.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Weapons\AmmoDisplay.cs">
+      <Link>Plugins\BNG Framework\Scripts\Weapons\AmmoDisplay.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\FollowRigidbody.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\FollowRigidbody.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Extras\MoveToWaypoint.cs">
+      <Link>Plugins\BNG Framework\Scripts\Extras\MoveToWaypoint.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Helpers\JointBreaker.cs">
+      <Link>Plugins\BNG Framework\Scripts\Helpers\JointBreaker.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\UI\UIPointer.cs">
+      <Link>Plugins\BNG Framework\Scripts\UI\UIPointer.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerRotation.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PlayerRotation.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\Slider.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\Slider.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PlayerClimbing.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PlayerClimbing.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Core\PointerEvents.cs">
+      <Link>Plugins\BNG Framework\Scripts\Core\PointerEvents.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Scripts\Components\GrabbableRingHelper.cs">
+      <Link>Plugins\BNG Framework\Scripts\Components\GrabbableRingHelper.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\HandPoser\Scripts\HandPoser.cs">
+      <Link>Plugins\BNG Framework\HandPoser\Scripts\HandPoser.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\BNG Framework\Animation\HandPoseDefinitions.cs">
+      <Link>Plugins\BNG Framework\Animation\HandPoseDefinitions.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -843,6 +843,12 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -866,12 +872,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\--Unity New\2021.3.13f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

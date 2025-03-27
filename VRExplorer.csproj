@@ -56,17 +56,44 @@
     <Analyzer Include="E:\--VS_E\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRGrabbable.cs">
+      <Link>Scripts\EAT Framework\Mono\XRGrabbable.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRTriggerable.cs">
+      <Link>Scripts\EAT Framework\Mono\XRTriggerable.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\TransformAction.cs">
+      <Link>Scripts\EAT Framework\Action\TransformAction.cs</Link>
+    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\ITriggerableEntity.cs">
       <Link>Scripts\EAT Framework\Entity\ITriggerableEntity.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\BaseExplorer.cs">
-      <Link>Scripts\EAT Framework\VRExplorer\BaseExplorer.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\IBaseEntity.cs">
+      <Link>Scripts\EAT Framework\Entity\IBaseEntity.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\MoveAction.cs">
+      <Link>Scripts\EAT Framework\Action\MoveAction.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Str.cs">
+      <Link>Scripts\EAT Framework\Str.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\ITransformableEntity.cs">
+      <Link>Scripts\EAT Framework\Entity\ITransformableEntity.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\Tools\RichText.cs">
       <Link>Scripts\Tools\RichText.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\IBaseEntity.cs">
-      <Link>Scripts\EAT Framework\Entity\IBaseEntity.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\VRExplorer.cs">
+      <Link>Scripts\EAT Framework\VRExplorer\VRExplorer.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRTransformable.cs">
+      <Link>Scripts\EAT Framework\Mono\XRTransformable.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\Tools\Singleton.cs">
+      <Link>Scripts\Tools\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\HamiltonianExplorer.cs">
+      <Link>Scripts\EAT Framework\VRExplorer\HamiltonianExplorer.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\TriggerAction.cs">
       <Link>Scripts\EAT Framework\Action\TriggerAction.cs</Link>
@@ -77,47 +104,20 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\BaseAction.cs">
       <Link>Scripts\EAT Framework\Action\BaseAction.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\Tools\Singleton.cs">
-      <Link>Scripts\Tools\Singleton.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\IGrabbableEntity.cs">
       <Link>Scripts\EAT Framework\Entity\IGrabbableEntity.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRTriggerable.cs">
-      <Link>Scripts\EAT Framework\Mono\XRTriggerable.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\ParallelAction.cs">
+      <Link>Scripts\EAT Framework\Action\ParallelAction.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\BaseExplorer.cs">
+      <Link>Scripts\EAT Framework\VRExplorer\BaseExplorer.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\EntityManager.cs">
       <Link>Scripts\EAT Framework\EntityManager.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\ExperimentManager.cs">
       <Link>Scripts\EAT Framework\ExperimentManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\VRExplorer.cs">
-      <Link>Scripts\EAT Framework\VRExplorer\VRExplorer.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\ParallelAction.cs">
-      <Link>Scripts\EAT Framework\Action\ParallelAction.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRGrabbable.cs">
-      <Link>Scripts\EAT Framework\Mono\XRGrabbable.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\VRExplorer\HamiltonianExplorer.cs">
-      <Link>Scripts\EAT Framework\VRExplorer\HamiltonianExplorer.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\MoveAction.cs">
-      <Link>Scripts\EAT Framework\Action\MoveAction.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\TransformAction.cs">
-      <Link>Scripts\EAT Framework\Action\TransformAction.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Str.cs">
-      <Link>Scripts\EAT Framework\Str.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Entity\ITransformableEntity.cs">
-      <Link>Scripts\EAT Framework\Entity\ITransformableEntity.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRTransformable.cs">
-      <Link>Scripts\EAT Framework\Mono\XRTransformable.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -414,6 +414,12 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -437,12 +443,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\--Unity New\2021.3.13f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

@@ -62,60 +62,35 @@
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\ObjectLauncher.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WoodenLogBehaviour.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\ButtonInteractable.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\TeleportController.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\finalPuzzle.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\SelectionOutline.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\ShakeObject.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicBallProjectile.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Tutorial\FuseBox.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\PotionReceiver.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\PotionSpawner.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\ImprovedHandController.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\AlignmentTrigger.cs" />
-    <Compile Include="Assets\Scripts\Door Events\FinalDoor.cs" />
-    <Compile Include="Assets\Scripts\Audio\AudioTrigger.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyDetector.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\Potion.cs" />
-    <Compile Include="Assets\Scripts\LoadScene\Restart.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\Victory.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\Timer.cs" />
-    <Compile Include="Assets\Scripts\IfPuzzle\ifManager.cs" />
-    <Compile Include="Assets\Scripts\Time\Clock.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicTractorBeam.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\TriggerAnimationEvent.cs" />
-    <Compile Include="Assets\Scripts\Time\BestTime.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\Sphere.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyFeedback.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\OutsidePiece.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\RespawnableObject.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\FireDestruction.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Tutorial\ObjectActivator.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\CCSource.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\AxisDragInteractable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MasterController.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyPadControll.cs" />
-    <Compile Include="Assets\Scripts\Door Events\DoorAnimationEvent.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\InsidePiece.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\DisableInteractable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\CauldronIngredient.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\HandPrefab.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\CCCanvas.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\TeleporterAnim.cs" />
-    <Compile Include="Assets\Scripts\Door Events\ExitDoor.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\ActivateRotatingInteractor.cs" />
-    <Compile Include="Assets\Scripts\IfPuzzle\IfPuzzle.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\IndestructableObj.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\finalPuzzleSockets.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\FanRotation.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicReceiver.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\inFinalRoom.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\stopMovement.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\DialInteractable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WitchHouseUIHook.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\CauldronEffects.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\BodyCollider.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\gripActivate.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\XROffsetGrabbable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\DebugController.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\Hourglass.cs" />
@@ -125,16 +100,13 @@
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\EmissionChange.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\CCManager.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\XRReleaseController.cs" />
-    <Compile Include="Assets\Scripts\KeyHole\keyMainScript.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\ObjectSpawner.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\ParticleVelocitySender.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\SocketTarget.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\LookAt.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\ButtonVR.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\SetCenterOfMass.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\ContactSoundPlayer.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\LoopManager.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\CCDatabase.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\LaserPointer.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\AnimationTrigger.cs" />
@@ -422,6 +394,12 @@
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -436,12 +414,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>E:\--Unity New\2021.3.13f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1021,29 +993,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BNG.csproj">
-      <Project>{E8447100-6657-C611-2BBA-6974A5E96EFE}</Project>
-      <Name>BNG</Name>
-    </ProjectReference>
-    <ProjectReference Include="VRExplorer.csproj">
-      <Project>{F9837DED-F870-9D84-2007-56B0E153A879}</Project>
-      <Name>VRExplorer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{1ED57F6A-FCC8-D309-0E7C-1E250DED1959}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{9DA723B6-5D16-A294-1B03-ED8083F5BA51}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Test.csproj">
+      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
+      <Name>Test</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{A8EE4782-C401-9CBF-E422-3E55968423BB}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
+    <ProjectReference Include="VRExplorer.csproj">
+      <Project>{F9837DED-F870-9D84-2007-56B0E153A879}</Project>
+      <Name>VRExplorer</Name>
+    </ProjectReference>
+    <ProjectReference Include="BNG.csproj">
+      <Project>{E8447100-6657-C611-2BBA-6974A5E96EFE}</Project>
+      <Name>BNG</Name>
+    </ProjectReference>
     <ProjectReference Include="VRGuide.csproj">
       <Project>{5121D6BA-B5BA-7F70-83F9-DA9703EFEE84}</Project>
       <Name>VRGuide</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{1ED57F6A-FCC8-D309-0E7C-1E250DED1959}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

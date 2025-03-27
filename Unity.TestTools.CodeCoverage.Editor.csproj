@@ -56,23 +56,122 @@
     <Analyzer Include="E:\--VS_E\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\Events.cs">
-      <Link>Plugins\Code Coverage\Editor\Events\Events.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOptionSet.cs">
       <Link>Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOptionSet.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\CodeCoverageWindow.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\CodeCoverageWindow.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Logging\ResultsLogger.cs">
+      <Link>Plugins\Code Coverage\Editor\Logging\ResultsLogger.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\PathFilterType.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\PathFilterType.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesTreeView.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesTreeView.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Filtering\AssemblyFiltering.cs">
+      <Link>Plugins\Code Coverage\Editor\Filtering\AssemblyFiltering.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalytics.cs">
+      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalytics.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ICoverageReporterFilter.cs">
+      <Link>Plugins\Code Coverage\Editor\ICoverageReporterFilter.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ReportGenerator\ReportGeneratorStyles.cs">
+      <Link>Plugins\Code Coverage\Editor\ReportGenerator\ReportGeneratorStyles.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CodeCoverage.cs">
+      <Link>Plugins\Code Coverage\Editor\CodeCoverage.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\FolderDropDownMenu.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageWindow\FolderDropDownMenu.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEnums.cs">
-      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEnums.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\PathToAddDropDownMenu.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\PathToAddDropDownMenu.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineParser\ICommandLineOption.cs">
+      <Link>Plugins\Code Coverage\Editor\CommandLineParser\ICommandLineOption.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\AssemblyInfo.cs">
+      <Link>Plugins\Code Coverage\Editor\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\CoverageFormat.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\CoverageFormat.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesPopupWindow.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesPopupWindow.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReporterManager.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageReporterManager.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReportType.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageReportType.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\Events.cs">
+      <Link>Plugins\Code Coverage\Editor\Events\Events.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOption.cs">
+      <Link>Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOption.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Icons\EditorIcons.cs">
+      <Link>Plugins\Code Coverage\Editor\Icons\EditorIcons.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\CoverageEventData.cs">
+      <Link>Plugins\Code Coverage\Editor\Events\CoverageEventData.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Filtering\JsonFileFilterSchema.cs">
+      <Link>Plugins\Code Coverage\Editor\Filtering\JsonFileFilterSchema.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Logging\LogVerbosityLevel.cs">
+      <Link>Plugins\Code Coverage\Editor\Logging\LogVerbosityLevel.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\SessionEventInfo.cs">
+      <Link>Plugins\Code Coverage\Editor\Events\SessionEventInfo.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Replacing\PathReplacing.cs">
       <Link>Plugins\Code Coverage\Editor\Replacing\PathReplacing.cs</Link>
     </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ICoverageReporter.cs">
+      <Link>Plugins\Code Coverage\Editor\ICoverageReporter.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Utils\JsonUtils.cs">
+      <Link>Plugins\Code Coverage\Editor\Utils\JsonUtils.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageStats\ICoverageStatsProvider.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageStats\ICoverageStatsProvider.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Utils\CoverageUtils.cs">
+      <Link>Plugins\Code Coverage\Editor\Utils\CoverageUtils.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageRunData.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageRunData.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageResultWriterBase.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageResultWriterBase.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEnums.cs">
+      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEnums.cs</Link>
+    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Filtering\PathFiltering.cs">
       <Link>Plugins\Code Coverage\Editor\Filtering\PathFiltering.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEvent.cs">
+      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEvent.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\FolderType.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageWindow\FolderType.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ReportGenerator\CoverageReportGenerator.cs">
+      <Link>Plugins\Code Coverage\Editor\ReportGenerator\CoverageReportGenerator.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageStats\CoverageStats.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageStats\CoverageStats.cs</Link>
@@ -80,125 +179,26 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\PathToAddHandler.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageWindow\PathToAddHandler.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Logging\LogVerbosityLevel.cs">
-      <Link>Plugins\Code Coverage\Editor\Logging\LogVerbosityLevel.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageRunData.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageRunData.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineManager.cs">
-      <Link>Plugins\Code Coverage\Editor\CommandLineManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\PathToAddDropDownMenu.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\PathToAddDropDownMenu.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Utils\CoverageUtils.cs">
-      <Link>Plugins\Code Coverage\Editor\Utils\CoverageUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\CoverageFormat.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\CoverageFormat.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ICoverageReporter.cs">
-      <Link>Plugins\Code Coverage\Editor\ICoverageReporter.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Icons\EditorIcons.cs">
-      <Link>Plugins\Code Coverage\Editor\Icons\EditorIcons.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReporterListener.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageReporterListener.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\PathFilterType.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\PathFilterType.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\CyclomaticComplexity.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\CyclomaticComplexity.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEvent.cs">
-      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalyticsEvent.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\CoverageEventData.cs">
-      <Link>Plugins\Code Coverage\Editor\Events\CoverageEventData.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesTreeView.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesTreeView.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageResultWriterBase.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageResultWriterBase.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesPopupWindow.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\IncludedAssembliesPopupWindow.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Utils\JsonUtils.cs">
-      <Link>Plugins\Code Coverage\Editor\Utils\JsonUtils.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Filtering\AssemblyFiltering.cs">
-      <Link>Plugins\Code Coverage\Editor\Filtering\AssemblyFiltering.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporter.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverResultWriter.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverResultWriter.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoveragePreferences.cs">
       <Link>Plugins\Code Coverage\Editor\CoveragePreferences.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\SessionEventInfo.cs">
-      <Link>Plugins\Code Coverage\Editor\Events\SessionEventInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ICoverageReporterFilter.cs">
-      <Link>Plugins\Code Coverage\Editor\ICoverageReporterFilter.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\CodeCoverageWindow.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\CodeCoverageWindow.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReporterManager.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageReporterManager.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Logging\ResultsLogger.cs">
-      <Link>Plugins\Code Coverage\Editor\Logging\ResultsLogger.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageStats\ICoverageStatsProvider.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageStats\ICoverageStatsProvider.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Events\SessionMode.cs">
       <Link>Plugins\Code Coverage\Editor\Events\SessionMode.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ReportGenerator\ReportGeneratorStyles.cs">
-      <Link>Plugins\Code Coverage\Editor\ReportGenerator\ReportGeneratorStyles.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineManager.cs">
+      <Link>Plugins\Code Coverage\Editor\CommandLineManager.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageWindow\FolderType.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageWindow\FolderType.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReporterListener.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageReporterListener.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterFilter.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterFilter.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineParser\ICommandLineOption.cs">
-      <Link>Plugins\Code Coverage\Editor\CommandLineParser\ICommandLineOption.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\CyclomaticComplexity.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\CyclomaticComplexity.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Analytics\CoverageAnalytics.cs">
-      <Link>Plugins\Code Coverage\Editor\Analytics\CoverageAnalytics.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOption.cs">
-      <Link>Plugins\Code Coverage\Editor\CommandLineParser\CommandLineOption.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\ReportGenerator\CoverageReportGenerator.cs">
-      <Link>Plugins\Code Coverage\Editor\ReportGenerator\CoverageReportGenerator.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\Filtering\JsonFileFilterSchema.cs">
-      <Link>Plugins\Code Coverage\Editor\Filtering\JsonFileFilterSchema.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\AssemblyInfo.cs">
-      <Link>Plugins\Code Coverage\Editor\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CodeCoverage.cs">
-      <Link>Plugins\Code Coverage\Editor\CodeCoverage.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverReporterStyles.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageReportType.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageReportType.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverResultWriter.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\OpenCoverResultWriter.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageSettings.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageSettings.cs</Link>

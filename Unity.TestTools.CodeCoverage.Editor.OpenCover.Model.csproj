@@ -56,11 +56,23 @@
     <Analyzer Include="E:\--VS_E\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedMethod.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedMethod.cs</Link>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedEntity.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedEntity.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\CoverageSession.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\CoverageSession.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Method.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Method.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\File.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\File.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\InstrumentationPoint.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\InstrumentationPoint.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\HelperExtensions.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\HelperExtensions.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SequencePoint.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SequencePoint.cs</Link>
@@ -68,35 +80,23 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\TrackedMethod.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\TrackedMethod.cs</Link>
     </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\IDocumentReference.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\IDocumentReference.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SummarySkippedEntity.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SummarySkippedEntity.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedEntity.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedEntity.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\CoverageSession.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\CoverageSession.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\HelperExtensions.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\HelperExtensions.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\File.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\File.cs</Link>
-    </Compile>
-    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Method.cs">
-      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Method.cs</Link>
-    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\BranchPoint.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\BranchPoint.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Summary.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Summary.cs</Link>
     </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SummarySkippedEntity.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SummarySkippedEntity.cs</Link>
+    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Class.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Class.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedMethod.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\SkippedMethod.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\IDocumentReference.cs">
+      <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\IDocumentReference.cs</Link>
     </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Module.cs">
       <Link>Plugins\Code Coverage\Editor\CoverageFormats\OpenCover\Model\Module.cs</Link>
@@ -381,6 +381,12 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -404,12 +410,6 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

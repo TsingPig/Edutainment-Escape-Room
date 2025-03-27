@@ -338,6 +338,12 @@
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.6\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Plugins\Code Coverage\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -952,6 +958,34 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{06E160C5-162A-8067-8A56-F44FD5392811}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
+      <Project>{9DA723B6-5D16-A294-1B03-ED8083F5BA51}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="Test.csproj">
+      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
+      <Name>Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{A8EE4782-C401-9CBF-E422-3E55968423BB}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRExplorer.csproj">
+      <Project>{F9837DED-F870-9D84-2007-56B0E153A879}</Project>
+      <Name>VRExplorer</Name>
+    </ProjectReference>
+    <ProjectReference Include="BNG.csproj">
+      <Project>{E8447100-6657-C611-2BBA-6974A5E96EFE}</Project>
+      <Name>BNG</Name>
+    </ProjectReference>
+    <ProjectReference Include="VRGuide.csproj">
+      <Project>{5121D6BA-B5BA-7F70-83F9-DA9703EFEE84}</Project>
+      <Name>VRGuide</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{1ED57F6A-FCC8-D309-0E7C-1E250DED1959}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
