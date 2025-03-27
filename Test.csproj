@@ -56,37 +56,30 @@
     <Analyzer Include="E:\--VS_E\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Controllers and body\TeleportController.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\finalPuzzle.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\ImprovedHandController.cs" />
-    <Compile Include="Assets\Scripts\Door Events\FinalDoor.cs" />
-    <Compile Include="Assets\Scripts\Audio\AudioTrigger.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyDetector.cs" />
-    <Compile Include="Assets\Scripts\LoadScene\Restart.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\Victory.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\Timer.cs" />
-    <Compile Include="Assets\Scripts\IfPuzzle\ifManager.cs" />
-    <Compile Include="Assets\Scripts\Time\Clock.cs" />
-    <Compile Include="Assets\Scripts\Time\BestTime.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\Sphere.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyFeedback.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\OutsidePiece.cs" />
-    <Compile Include="Assets\Scripts\Keypad\KeyPadControll.cs" />
-    <Compile Include="Assets\Scripts\Door Events\DoorAnimationEvent.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\InsidePiece.cs" />
-    <Compile Include="Assets\Scripts\Door Events\ExitDoor.cs" />
-    <Compile Include="Assets\Scripts\IfPuzzle\IfPuzzle.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\finalPuzzleSockets.cs" />
-    <Compile Include="Assets\Scripts\Final Puzzle Room\inFinalRoom.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\stopMovement.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\BodyCollider.cs" />
-    <Compile Include="Assets\Scripts\Controllers and body\gripActivate.cs" />
-    <Compile Include="Assets\Scripts\KeyHole\keyMainScript.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\ButtonVR.cs" />
-    <Compile Include="Assets\Scripts\LoopTask\LoopManager.cs" />
+    <Compile Include="Assets\Scripts\Test\Final Puzzle Room\finalPuzzle.cs" />
+    <Compile Include="Assets\Scripts\Test\Door Events\FinalDoor.cs" />
+    <Compile Include="Assets\Scripts\Test\Audio\AudioTrigger.cs" />
+    <Compile Include="Assets\Scripts\Test\Keypad\KeyDetector.cs" />
+    <Compile Include="Assets\Scripts\Test\Final Puzzle Room\Victory.cs" />
+    <Compile Include="Assets\Scripts\Test\Final Puzzle Room\Timer.cs" />
+    <Compile Include="Assets\Scripts\Test\IfPuzzle\ifManager.cs" />
+    <Compile Include="Assets\Scripts\Test\Time\Clock.cs" />
+    <Compile Include="Assets\Scripts\Test\Time\BestTime.cs" />
+    <Compile Include="Assets\Scripts\Test\Keypad\KeyFeedback.cs" />
+    <Compile Include="Assets\Scripts\Test\LoopTask\OutsidePiece.cs" />
+    <Compile Include="Assets\Scripts\Test\Keypad\KeyPadControll.cs" />
+    <Compile Include="Assets\Scripts\Test\Door Events\DoorAnimationEvent.cs" />
+    <Compile Include="Assets\Scripts\Test\LoopTask\InsidePiece.cs" />
+    <Compile Include="Assets\Scripts\Test\Door Events\ExitDoor.cs" />
+    <Compile Include="Assets\Scripts\Test\IfPuzzle\IfPuzzle.cs" />
+    <Compile Include="Assets\Scripts\Test\Final Puzzle Room\finalPuzzleSockets.cs" />
+    <Compile Include="Assets\Scripts\Test\Final Puzzle Room\inFinalRoom.cs" />
+    <Compile Include="Assets\Scripts\Test\KeyHole\keyMainScript.cs" />
+    <Compile Include="Assets\Scripts\Test\LoopTask\ButtonVR.cs" />
+    <Compile Include="Assets\Scripts\Test\LoopTask\LoopManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Scripts\Test.asmdef" />
+    <None Include="Assets\Scripts\Test\Test.asmdef" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

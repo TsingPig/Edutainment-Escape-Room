@@ -3525,6 +3525,7 @@ GameObject:
   - component: {fileID: 112350690}
   - component: {fileID: 112350689}
   - component: {fileID: 112350693}
+  - component: {fileID: 112350694}
   m_Layer: 0
   m_Name: SocketInteractor Puzzle (1)
   m_TagString: Untagged
@@ -3703,6 +3704,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linkedPuzzleManager: {fileID: 1293205246}
   secondPartCorrect: {fileID: 395096718}
+--- !u!114 &112350694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112350687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &112515761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7927,6 +7941,7 @@ GameObject:
   - component: {fileID: 284814596}
   - component: {fileID: 284814595}
   - component: {fileID: 284814594}
+  - component: {fileID: 284814599}
   m_Layer: 0
   m_Name: OutsideInteractor
   m_TagString: Untagged
@@ -8083,6 +8098,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284814592}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &284814599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284814592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &285458024 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3997bb47d750c6b43a45ffbe9a805fde,
@@ -11552,6 +11580,7 @@ GameObject:
   - component: {fileID: 353440281}
   - component: {fileID: 353440280}
   - component: {fileID: 353440283}
+  - component: {fileID: 353440284}
   m_Layer: 11
   m_Name: Door 2
   m_TagString: Untagged
@@ -11567,7 +11596,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353440278}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.38, y: 0, z: 9.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11587,7 +11616,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.64892, y: 2.0530953, z: 4.7165575}
-  m_Center: {x: -4.6298947, y: 1.122361, z: 9.102718}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &353440281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11635,6 +11664,19 @@ MonoBehaviour:
   audioSource: {fileID: 1941851346}
   keysPlaced: {fileID: 2046914207}
   oneTimeEvent: 1
+--- !u!114 &353440284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353440278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &354067704
 GameObject:
   m_ObjectHideFlags: 0
@@ -14182,6 +14224,7 @@ GameObject:
   - component: {fileID: 479130726}
   - component: {fileID: 479130728}
   - component: {fileID: 479130727}
+  - component: {fileID: 479130729}
   m_Layer: 11
   m_Name: inRoomTrigger
   m_TagString: Untagged
@@ -14231,6 +14274,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.121811, y: 2.3221962, z: 8.575563}
   m_Center: {x: -4.4896994, y: 1.2569114, z: 4.5767226}
+--- !u!114 &479130729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479130725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &486296661
 GameObject:
   m_ObjectHideFlags: 0
@@ -14964,6 +15020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928622045715239325, guid: 220046a189ec53d4e9d8c2c88e544bff,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8080720548095950257, guid: 220046a189ec53d4e9d8c2c88e544bff,
         type: 3}
@@ -19947,6 +20008,7 @@ GameObject:
   - component: {fileID: 684269939}
   - component: {fileID: 684269938}
   - component: {fileID: 684269937}
+  - component: {fileID: 684269942}
   m_Layer: 0
   m_Name: OutsideInteractor
   m_TagString: Untagged
@@ -20149,6 +20211,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684269935}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &684269942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684269935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &691591083
 GameObject:
   m_ObjectHideFlags: 0
@@ -20940,6 +21015,7 @@ GameObject:
   - component: {fileID: 732398530}
   - component: {fileID: 732398529}
   - component: {fileID: 732398528}
+  - component: {fileID: 732398532}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -21118,6 +21194,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1.0000001}
   m_Center: {x: -0.0000037550926, y: -0.000015258789, z: -0.00000008940696}
+--- !u!114 &732398532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732398526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &733952606
 GameObject:
   m_ObjectHideFlags: 0
@@ -21689,6 +21778,7 @@ GameObject:
   - component: {fileID: 749547999}
   - component: {fileID: 749547997}
   - component: {fileID: 749547998}
+  - component: {fileID: 749548000}
   m_Layer: 11
   m_Name: Door 2
   m_TagString: Untagged
@@ -21757,6 +21847,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &749548000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749547995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &755493291
 GameObject:
   m_ObjectHideFlags: 0
@@ -22343,6 +22446,7 @@ GameObject:
   - component: {fileID: 761734089}
   - component: {fileID: 761734091}
   - component: {fileID: 761734090}
+  - component: {fileID: 761734092}
   m_Layer: 11
   m_Name: KeyInteractor
   m_TagString: Untagged
@@ -22505,6 +22609,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1733942, y: 0.115717135, z: 0.14006805}
   m_Center: {x: -0.0022576652, y: 0.0080369115, z: 0.057963055}
+--- !u!114 &761734092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761734088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &771622881
 GameObject:
   m_ObjectHideFlags: 0
@@ -23188,6 +23305,7 @@ GameObject:
   - component: {fileID: 790247596}
   - component: {fileID: 790247595}
   - component: {fileID: 790247597}
+  - component: {fileID: 790247598}
   m_Layer: 11
   m_Name: Exit Door
   m_TagString: Untagged
@@ -23257,6 +23375,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 1269740007}
+--- !u!114 &790247598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790247593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &791172510
 GameObject:
   m_ObjectHideFlags: 0
@@ -23270,6 +23401,7 @@ GameObject:
   - component: {fileID: 791172514}
   - component: {fileID: 791172513}
   - component: {fileID: 791172512}
+  - component: {fileID: 791172516}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -23448,6 +23580,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1.0000001}
   m_Center: {x: -0.0000037550926, y: -0.000015258789, z: -0.00000008940696}
+--- !u!114 &791172516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791172510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &795910227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28719,6 +28864,7 @@ GameObject:
   - component: {fileID: 948828966}
   - component: {fileID: 948828965}
   - component: {fileID: 948828964}
+  - component: {fileID: 948828968}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -28897,6 +29043,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2, z: 1.0000001}
   m_Center: {x: -0.0000037550926, y: -0.000015258789, z: -0.00000008940696}
+--- !u!114 &948828968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948828962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &949506979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31839,6 +31998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060933184}
   - component: {fileID: 1060933185}
+  - component: {fileID: 1060933186}
   m_Layer: 0
   m_Name: Keypad
   m_TagString: Keypad
@@ -31878,6 +32038,33 @@ MonoBehaviour:
   accessGranted: 0
   onCorrectCode:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 822093423}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &1060933186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060933183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 822093423}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -35352,6 +35539,7 @@ GameObject:
   - component: {fileID: 1243741903}
   - component: {fileID: 1243741905}
   - component: {fileID: 1243741904}
+  - component: {fileID: 1243741906}
   m_Layer: 11
   m_Name: KeyInteractor (1)
   m_TagString: Untagged
@@ -35514,6 +35702,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.1733942, y: 0.115717135, z: 0.14006805}
   m_Center: {x: -0.0022576652, y: 0.0080369115, z: 0.057963055}
+--- !u!114 &1243741906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243741902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &1243991202
 GameObject:
   m_ObjectHideFlags: 0
@@ -35884,6 +36085,7 @@ GameObject:
   - component: {fileID: 1255358099}
   - component: {fileID: 1255358098}
   - component: {fileID: 1255358097}
+  - component: {fileID: 1255358102}
   m_Layer: 0
   m_Name: InsideInteractor
   m_TagString: Untagged
@@ -36088,6 +36290,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255358095}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1255358102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255358095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &1256620295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36332,6 +36547,7 @@ GameObject:
   - component: {fileID: 1269740008}
   - component: {fileID: 1269740007}
   - component: {fileID: 1269740010}
+  - component: {fileID: 1269740011}
   m_Layer: 15
   m_Name: Timer Countdown
   m_TagString: Untagged
@@ -36491,6 +36707,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.1089892, y: 2.892657, z: 5.113041}
   m_Center: {x: 0.0034253597, y: -0.9955956, z: -2.6014194}
+--- !u!114 &1269740011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269740005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &1271437325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37024,6 +37253,7 @@ GameObject:
   - component: {fileID: 1308749553}
   - component: {fileID: 1308749552}
   - component: {fileID: 1308749556}
+  - component: {fileID: 1308749557}
   m_Layer: 0
   m_Name: SocketInteractor Puzzle (2)
   m_TagString: Untagged
@@ -37202,6 +37432,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linkedPuzzleManager: {fileID: 1293205246}
   secondPartCorrect: {fileID: 304295}
+--- !u!114 &1308749557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308749550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &1308855324
 GameObject:
   m_ObjectHideFlags: 0
@@ -37440,6 +37683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1315446519}
   - component: {fileID: 1315446520}
+  - component: {fileID: 1315446521}
   m_Layer: 0
   m_Name: Keypad (1)
   m_TagString: Keypad2
@@ -37482,6 +37726,33 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1489944610}
         m_TargetAssemblyTypeName: Victory, Assembly-CSharp
+        m_MethodName: onWin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1315446521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315446518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1489944610}
+        m_TargetAssemblyTypeName: Victory, Test
         m_MethodName: onWin
         m_Mode: 1
         m_Arguments:
@@ -37546,15 +37817,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6666664
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.9800011
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -37562,23 +37833,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.131903
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
-      propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
-      propertyPath: m_LocalRotation.y
+      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -37586,7 +37857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4341788464638858, guid: bddc1c2bd8f610b4a9602b0663b4823e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -37786,6 +38057,7 @@ GameObject:
   - component: {fileID: 1331476504}
   - component: {fileID: 1331476503}
   - component: {fileID: 1331476502}
+  - component: {fileID: 1331476505}
   m_Layer: 11
   m_Name: Door 1
   m_TagString: Untagged
@@ -37854,6 +38126,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1331476505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331476500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!4 &1332834984 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4016211520797622, guid: 0547e5926fd68ea4993c6af3be8769e0,
@@ -39173,6 +39458,7 @@ GameObject:
   - component: {fileID: 1389924504}
   - component: {fileID: 1389924503}
   - component: {fileID: 1389924508}
+  - component: {fileID: 1389924509}
   m_Layer: 0
   m_Name: SocketInteractor Puzzle
   m_TagString: Untagged
@@ -39351,6 +39637,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linkedPuzzleManager: {fileID: 1293205246}
   secondPartCorrect: {fileID: 2065480344}
+--- !u!114 &1389924509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389924501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1 &1390513532
 GameObject:
   m_ObjectHideFlags: 0
@@ -44187,6 +44486,7 @@ GameObject:
   - component: {fileID: 1635398366}
   - component: {fileID: 1635398365}
   - component: {fileID: 1635398364}
+  - component: {fileID: 1635398367}
   m_Layer: 11
   m_Name: Door 1
   m_TagString: Untagged
@@ -44255,6 +44555,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1635398367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635398362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &1637877107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44332,6 +44645,7 @@ GameObject:
   - component: {fileID: 1638207402}
   - component: {fileID: 1638207401}
   - component: {fileID: 1638207400}
+  - component: {fileID: 1638207403}
   m_Layer: 11
   m_Name: Door 2
   m_TagString: Untagged
@@ -44400,6 +44714,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1638207403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638207398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!1001 &1638351412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48404,6 +48731,7 @@ GameObject:
   - component: {fileID: 1844490005}
   - component: {fileID: 1844490004}
   - component: {fileID: 1844490003}
+  - component: {fileID: 1844490006}
   m_Layer: 11
   m_Name: Door 1
   m_TagString: Untagged
@@ -48472,6 +48800,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1844490006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844490001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!4 &1846405110 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4980746487900392, guid: af66cb781f2abe44abe97b567b10153a,
@@ -55625,6 +55966,7 @@ GameObject:
   - component: {fileID: 2124835095}
   - component: {fileID: 2124835097}
   - component: {fileID: 2124835096}
+  - component: {fileID: 2124835098}
   m_Layer: 11
   m_Name: KeyInteractor
   m_TagString: Untagged
@@ -55785,8 +56127,21 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1733942, y: 0.115717135, z: 0.14006805}
-  m_Center: {x: -0.0022576652, y: 0.0080369115, z: 0.057963055}
+  m_Size: {x: 0.1733942, y: 0.115717135, z: 0.16783653}
+  m_Center: {x: -0.0022576652, y: 0.0080369115, z: 0.07184729}
+--- !u!114 &2124835098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124835094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea063aa6194c2234cac095d8da6e035e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events: []
 --- !u!4 &2129040308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8b369e09821adb7478bc5e32e87dfa4f,
@@ -55804,6 +56159,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRGuide
+      objectReference: {fileID: 0}
+    - target: {fileID: 7079763014310332028, guid: 9b838f63756dada41a228550bcc5bdf3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7079763014310332031, guid: 9b838f63756dada41a228550bcc5bdf3,
         type: 3}

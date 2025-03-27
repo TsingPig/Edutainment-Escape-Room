@@ -1,106 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CoverageReport scope="Summary">
   <Summary>
-    <Generatedon>2025/3/27 - 20:59:10</Generatedon>
-    <Parser>MultiReportParser (2x OpenCoverParser)</Parser>
-    <Assemblies>2</Assemblies>
-    <Classes>80</Classes>
-    <Files>80</Files>
-    <Coveredlines>293</Coveredlines>
-    <Uncoveredlines>2101</Uncoveredlines>
-    <Coverablelines>2394</Coverablelines>
-    <Totallines>4774</Totallines>
-    <Linecoverage>12.2</Linecoverage>
+    <Generatedon>2025/3/27 - 23:35:40</Generatedon>
+    <Parser>MultiReportParser (102x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>21</Classes>
+    <Files>21</Files>
+    <Coveredlines>307</Coveredlines>
+    <Uncoveredlines>234</Uncoveredlines>
+    <Coverablelines>541</Coverablelines>
+    <Totallines>1011</Totallines>
+    <Linecoverage>56.7</Linecoverage>
     <Coveredbranches>0</Coveredbranches>
     <Totalbranches>0</Totalbranches>
-    <Coveredmethods>76</Coveredmethods>
-    <Totalmethods>327</Totalmethods>
-    <Methodcoverage>23.2</Methodcoverage>
+    <Coveredmethods>78</Coveredmethods>
+    <Totalmethods>93</Totalmethods>
+    <Methodcoverage>83.8</Methodcoverage>
   </Summary>
   <Coverage>
-    <Assembly name="Assembly-CSharp" classes="52" coverage="3.5" coveredlines="63" coverablelines="1768" totallines="3558" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="15" totalmethods="211" methodcoverage="7.1">
-      <Class name="ActivateRotatingInteractor" coverage="0" coveredlines="0" coverablelines="10" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="AlignmentTrigger" coverage="0" coveredlines="0" coverablelines="34" totallines="82" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="AnimationTrigger" coverage="0" coveredlines="0" coverablelines="10" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="AxisDragInteractable" coverage="0" coveredlines="0" coverablelines="94" totallines="184" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
-      <Class name="ButtonInteractable" coverage="0" coveredlines="0" coverablelines="38" totallines="88" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="CauldronContent" coverage="0" coveredlines="0" coverablelines="90" totallines="182" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
-      <Class name="CauldronEffects" coverage="0" coveredlines="0" coverablelines="48" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
-      <Class name="CCDatabase" coverage="0" coveredlines="0" coverablelines="23" totallines="55" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="CCManager" coverage="0" coveredlines="0" coverablelines="99" totallines="161" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="8" methodcoverage="0" />
-      <Class name="CCSource" coverage="0" coveredlines="0" coverablelines="36" totallines="72" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
-      <Class name="ContactSoundPlayer" coverage="9" coveredlines="1" coverablelines="11" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
-      <Class name="DebugController" coverage="0" coveredlines="0" coverablelines="46" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
-      <Class name="DialInteractable" coverage="17" coveredlines="24" coverablelines="141" totallines="267" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="9" methodcoverage="33.3" />
-      <Class name="DisableInteractable" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="EmissionChange" coverage="0" coveredlines="0" coverablelines="10" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="EndingSequence" coverage="0" coveredlines="0" coverablelines="21" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="FanRotation" coverage="0" coveredlines="0" coverablelines="22" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="FireDestruction" coverage="0" coveredlines="0" coverablelines="22" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="FuseBox" coverage="0" coveredlines="0" coverablelines="28" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="Hourglass" coverage="63.6" coveredlines="14" coverablelines="22" totallines="47" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
-      <Class name="InteractableLayerChange" coverage="0" coveredlines="0" coverablelines="6" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="InteractorEventDispatcher" coverage="0" coveredlines="0" coverablelines="4" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="LaserPointer" coverage="0" coveredlines="0" coverablelines="12" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="LookAt" coverage="0" coveredlines="0" coverablelines="7" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="MagicBallProjectile" coverage="0" coveredlines="0" coverablelines="28" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
-      <Class name="MagicReceiver" coverage="0" coveredlines="0" coverablelines="10" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="MagicTractorBeam" coverage="0" coveredlines="0" coverablelines="95" totallines="145" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="10" methodcoverage="0" />
-      <Class name="MasterController" coverage="0" coveredlines="0" coverablelines="122" totallines="229" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="11" methodcoverage="0" />
-      <Class name="ObjectActivator" coverage="9" coveredlines="2" coverablelines="22" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
-      <Class name="ObjectLauncher" coverage="0" coveredlines="0" coverablelines="45" totallines="84" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="7" methodcoverage="0" />
-      <Class name="ObjectSpawner" coverage="0" coveredlines="0" coverablelines="33" totallines="61" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="ParticleVelocitySender" coverage="0" coveredlines="0" coverablelines="13" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="Potion" coverage="0" coveredlines="0" coverablelines="108" totallines="199" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="9" methodcoverage="0" />
-      <Class name="PotionReceiver" coverage="0" coveredlines="0" coverablelines="8" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="PotionSpawner" coverage="0" coveredlines="0" coverablelines="13" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="Radio" coverage="19.5" coveredlines="9" coverablelines="46" totallines="78" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
-      <Class name="Readme" coverage="0" coveredlines="0" coverablelines="1" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="RespawnableObject" coverage="0" coveredlines="0" coverablelines="25" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="SelectionOutline" coverage="34.7" coveredlines="8" coverablelines="23" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="4" methodcoverage="50" />
-      <Class name="SetCenterOfMass" coverage="0" coveredlines="0" coverablelines="13" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="SFXPlayer" coverage="0" coveredlines="0" coverablelines="64" totallines="139" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="6" methodcoverage="0" />
-      <Class name="ShakeObject" coverage="0" coveredlines="0" coverablelines="20" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="SocketTarget" coverage="0" coveredlines="0" coverablelines="21" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="StationaryOnPull" coverage="0" coveredlines="0" coverablelines="3" totallines="11" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="TeleporterAnim" coverage="0" coveredlines="0" coverablelines="36" totallines="70" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="5" methodcoverage="0" />
-      <Class name="TriggerAnimationEvent" coverage="0" coveredlines="0" coverablelines="14" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="WatchScript" coverage="0" coveredlines="0" coverablelines="58" totallines="116" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="8" methodcoverage="0" />
-      <Class name="WitchHouseUIHook" coverage="0" coveredlines="0" coverablelines="8" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="WoodenLogBehaviour" coverage="0" coveredlines="0" coverablelines="22" totallines="45" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-      <Class name="XRExclusiveSocketInteractor" coverage="0" coveredlines="0" coverablelines="9" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="XROffsetGrabbable" coverage="13.5" coveredlines="5" coverablelines="37" totallines="78" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="5" methodcoverage="40" />
-      <Class name="XRReleaseController" coverage="0" coveredlines="0" coverablelines="31" totallines="73" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="4" methodcoverage="0" />
-    </Assembly>
-    <Assembly name="Test" classes="28" coverage="36.7" coveredlines="230" coverablelines="626" totallines="1216" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="61" totalmethods="116" methodcoverage="52.5">
-      <Class name="AudioTrigger" coverage="28.5" coveredlines="4" coverablelines="14" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
-      <Class name="BestTime" coverage="18.1" coveredlines="4" coverablelines="22" totallines="43" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
-      <Class name="BodyCollider" coverage="100" coveredlines="5" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
-      <Class name="ButtonVR" coverage="42.8" coveredlines="3" coverablelines="7" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
-      <Class name="Clock" coverage="62.9" coveredlines="17" coverablelines="27" totallines="54" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="6" methodcoverage="66.6" />
-      <Class name="DoorAnimationEvent" coverage="25.9" coveredlines="7" coverablelines="27" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="7" methodcoverage="42.8" />
-      <Class name="ExitDoor" coverage="36.8" coveredlines="7" coverablelines="19" totallines="37" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
-      <Class name="FinalDoor" coverage="28.5" coveredlines="8" coverablelines="28" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="6" methodcoverage="50" />
+    <Assembly name="Test" classes="21" coverage="56.7" coveredlines="307" coverablelines="541" totallines="1011" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="78" totalmethods="93" methodcoverage="83.8">
+      <Class name="AudioTrigger" coverage="78.5" coveredlines="11" coverablelines="14" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
+      <Class name="BestTime" coverage="45.4" coveredlines="10" coverablelines="22" totallines="43" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+      <Class name="ButtonVR" coverage="85.7" coveredlines="6" coverablelines="7" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Clock" coverage="77.7" coveredlines="21" coverablelines="27" totallines="54" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="6" methodcoverage="83.3" />
+      <Class name="DoorAnimationEvent" coverage="100" coveredlines="27" coverablelines="27" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="7" totalmethods="7" methodcoverage="100" />
+      <Class name="ExitDoor" coverage="73.6" coveredlines="14" coverablelines="19" totallines="37" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="4" methodcoverage="100" />
+      <Class name="FinalDoor" coverage="60.7" coveredlines="17" coverablelines="28" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="6" methodcoverage="83.3" />
       <Class name="finalPuzzle" coverage="47.5" coveredlines="19" coverablelines="40" totallines="75" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="7" methodcoverage="71.4" />
       <Class name="finalPuzzleSockets" coverage="70" coveredlines="21" coverablelines="30" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
-      <Class name="gripActivate" coverage="0" coveredlines="0" coverablelines="6" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="3" methodcoverage="0" />
-      <Class name="ifManager" coverage="33.3" coveredlines="3" coverablelines="9" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
-      <Class name="IfPuzzle" coverage="69.6" coveredlines="23" coverablelines="33" totallines="53" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
-      <Class name="ImprovedHandController" coverage="60" coveredlines="12" coverablelines="20" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="6" methodcoverage="50" />
+      <Class name="ifManager" coverage="66.6" coveredlines="6" coverablelines="9" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="3" methodcoverage="66.6" />
+      <Class name="IfPuzzle" coverage="87.8" coveredlines="29" coverablelines="33" totallines="53" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
       <Class name="inFinalRoom" coverage="100" coveredlines="4" coverablelines="4" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
-      <Class name="InsidePiece" coverage="43.3" coveredlines="13" coverablelines="30" totallines="54" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
+      <Class name="InsidePiece" coverage="63.3" coveredlines="19" coverablelines="30" totallines="54" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
       <Class name="KeyDetector" coverage="21.1" coveredlines="11" coverablelines="52" totallines="84" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
       <Class name="KeyFeedback" coverage="59" coveredlines="13" coverablelines="22" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
-      <Class name="keyMainScript" coverage="15.3" coveredlines="2" coverablelines="13" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="3" methodcoverage="33.3" />
+      <Class name="keyMainScript" coverage="69.2" coveredlines="9" coverablelines="13" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="3" methodcoverage="100" />
       <Class name="KeyPadControll" coverage="35.2" coveredlines="6" coverablelines="17" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="4" methodcoverage="75" />
-      <Class name="LoopManager" coverage="19.2" coveredlines="11" coverablelines="57" totallines="89" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="10" methodcoverage="30" />
-      <Class name="OutsidePiece" coverage="44.8" coveredlines="13" coverablelines="29" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="3" totalmethods="5" methodcoverage="60" />
-      <Class name="Restart" coverage="0" coveredlines="0" coverablelines="3" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
-      <Class name="Sphere" coverage="11.1" coveredlines="3" coverablelines="27" totallines="46" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="5" methodcoverage="20" />
-      <Class name="stopMovement" coverage="0" coveredlines="0" coverablelines="7" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="2" methodcoverage="0" />
-      <Class name="TeleportController" coverage="23.5" coveredlines="4" coverablelines="17" totallines="40" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="4" methodcoverage="25" />
-      <Class name="Timer" coverage="32" coveredlines="17" coverablelines="53" totallines="90" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="4" totalmethods="8" methodcoverage="50" />
-      <Class name="Victory" coverage="0" coveredlines="0" coverablelines="8" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="LoopManager" coverage="29.8" coveredlines="17" coverablelines="57" totallines="89" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="10" methodcoverage="50" />
+      <Class name="OutsidePiece" coverage="65.5" coveredlines="19" coverablelines="29" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="5" methodcoverage="100" />
+      <Class name="Timer" coverage="37.7" coveredlines="20" coverablelines="53" totallines="90" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="5" totalmethods="8" methodcoverage="62.5" />
+      <Class name="Victory" coverage="100" coveredlines="8" coverablelines="8" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
     </Assembly>
   </Coverage>
 </CoverageReport>

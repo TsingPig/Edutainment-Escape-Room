@@ -62,17 +62,21 @@
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\ObjectLauncher.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WoodenLogBehaviour.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\ButtonInteractable.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\TeleportController.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\SelectionOutline.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\ShakeObject.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicBallProjectile.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Tutorial\FuseBox.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\PotionReceiver.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\PotionSpawner.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\ImprovedHandController.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\AlignmentTrigger.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\Potion.cs" />
+    <Compile Include="Assets\Scripts\LoadScene\Restart.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicTractorBeam.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\TriggerAnimationEvent.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\Sphere.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\RespawnableObject.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\FireDestruction.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Tutorial\ObjectActivator.cs" />
@@ -88,9 +92,12 @@
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\IndestructableObj.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\FanRotation.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\MagicReceiver.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\stopMovement.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\DialInteractable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\WitchHouseUIHook.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Effects\CauldronEffects.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\BodyCollider.cs" />
+    <Compile Include="Assets\Scripts\Controllers and body\gripActivate.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\Interactables\XROffsetGrabbable.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\System\DebugController.cs" />
     <Compile Include="Assets\XR and Assets\VR Escape Room Assets\VR Beginner\Scripts\Gameplay\Hourglass.cs" />
@@ -997,10 +1004,6 @@
       <Project>{9DA723B6-5D16-A294-1B03-ED8083F5BA51}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="Test.csproj">
-      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
-      <Name>Test</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{A8EE4782-C401-9CBF-E422-3E55968423BB}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
@@ -1020,6 +1023,10 @@
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{1ED57F6A-FCC8-D309-0E7C-1E250DED1959}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Test.csproj">
+      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
+      <Name>Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
