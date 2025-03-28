@@ -963,6 +963,10 @@
       <Project>{9DA723B6-5D16-A294-1B03-ED8083F5BA51}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="Test.csproj">
+      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
+      <Name>Test</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
       <Project>{A8EE4782-C401-9CBF-E422-3E55968423BB}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
@@ -982,10 +986,6 @@
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{1ED57F6A-FCC8-D309-0E7C-1E250DED1959}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Test.csproj">
-      <Project>{7EDF1D47-7F7D-0F39-B96B-0529D37B9810}</Project>
-      <Name>Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
