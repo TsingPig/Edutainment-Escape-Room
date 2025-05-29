@@ -101,6 +101,12 @@
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\GrabAction.cs">
       <Link>Scripts\EAT Framework\Action\GrabAction.cs</Link>
     </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\Editor\AssetCounter.cs">
+      <Link>Scripts\Editor\AssetCounter.cs</Link>
+    </Compile>
+    <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Mono\XRBase.cs">
+      <Link>Scripts\EAT Framework\Mono\XRBase.cs</Link>
+    </Compile>
     <Compile Include="D:\--UnityProject\VR\VRExplorer\Assets\VRExplorer\Scripts\EAT Framework\Action\BaseAction.cs">
       <Link>Scripts\EAT Framework\Action\BaseAction.cs</Link>
     </Compile>
