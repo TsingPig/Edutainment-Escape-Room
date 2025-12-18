@@ -18,6 +18,7 @@ TagManager:
   - KeypadButton2
   - wall
   - hand
+  - TempTargetTag
   layers:
   - Default
   - TransparentFX
